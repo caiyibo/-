@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- action是提交地址，数据想发到哪 就把地址写入action -->
+    <form action=" ">
+        用户名：<input type="text">
+        <br>
+        <br>
+        密码：<input type="password">
+        <br>
+        <br>
+        性别：<input type="radio" name="gander">男
+            <input type="radio" name="gander">女
+        <br>
+        <br>
+        <!-- 如果想要 按钮可以使用 必须有一个表单域标签 意思是想要提交或重置 必须放到一个整体里面否则不知道提交或者重置到哪里  把这些放到一个父级里 -->
+        <input type="submit" value="免费注册">
+        <br>
+        <br>
+        <input type="reset">
+        <br>
+        <br>
+        <!-- 想要改button按钮的提示文字 必须加一个属性 xx="xxx"button后面加一个value关键字 -->
+        <input type="button" value="普通按钮">
+    </form>
+</body>
+</html>
